@@ -1,0 +1,2190 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Investor Guide - General Tax Authority</title>
+<meta content="Investor-focused tax information, obligations, resources, FAQ, and contacts from Qatar's General Tax Authority (GTA)." name="description"/>
+<style>
+ :root{ --maroon:#8A1538; --maroon-dark:#6d0f2c; --ink:#1b1b1b; --muted:#5a5a5a; --bg:#ffffff; --card:#f7f7f8;
+ --radius:14px; --shadow:0 2px 14px rgba(0,0,0,.08); --font:'Noto Sans Arabic','Noto Sans','Segoe UI','Helvetica Neue',Arial,sans-serif; }
+ html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);line-height:1.6;}
+ a{color:var(--maroon);text-decoration:none} a:hover,a:focus{color:#6d0f2c;text-decoration:underline}
+ .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+ .skip-link:focus{position:fixed;left:1rem;top:1rem;width:auto;height:auto;padding:.5rem .75rem;background:#fff;border:2px solid var(--maroon);z-index:10000}
+ header{border-bottom:1px solid #ececec;background:#fff;position:sticky;top:0;z-index:999}
+ .topbar{max-width:1100px;margin:0 auto;padding:.75rem 1rem;display:flex;align-items:center;gap:1rem}
+ .brand{display:flex;align-items:center;gap:.75rem}
+ .brand .logo{width:34px;height:34px;background:var(--maroon);border-radius:8px;display:grid;place-items:center;color:#fff;box-shadow:var(--shadow)}
+ .brand strong{font-weight:700;letter-spacing:.2px}
+ nav.quick{background:var(--maroon);color:#fff}
+ nav.quick .wrap{max-width:1100px;margin:0 auto;padding:.5rem 1rem;display:flex;gap:.75rem;flex-wrap:wrap}
+ nav.quick a{color:#fff;text-decoration:none;padding:.45rem .7rem;border-radius:999px;border:1px solid rgba(255,255,255,.25)}
+ nav.quick a:hover, nav.quick a:focus{background:#6d0f2c}
+ main{max-width:1100px;margin:0 auto;padding:1.25rem;display:grid;gap:1.25rem}
+ section{scroll-margin-top:6.5rem}
+ .section-head{display:flex;align-items:center;gap:.6rem;margin:.25rem 0 .5rem}
+ .section-head svg{width:22px;height:22px;color:var(--maroon)}
+ .card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:1rem}
+ .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+ @media (max-width:920px){.grid-2{grid-template-columns:1fr}}
+ ul.clean{margin:.2rem 0;padding-left:1.2rem}
+ .tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+ @media (max-width:920px){.tiles{grid-template-columns:repeat(2,1fr)}}
+ .tile{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:1rem;display:flex;align-items:center;gap:.75rem;border:1px solid #eee}
+ .tile:hover{border-color:#ddd;transform:translateY(-1px)}
+ .tile svg{width:28px;height:28px;color:var(--maroon)}
+ form{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:1rem;border:1px solid #eee}
+ .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+ @media (max-width:800px){.form-grid{grid-template-columns:1fr}}
+ label{display:block;font-weight:600;margin:.25rem 0}
+ .hint{font-size:.9rem;color:var(--muted);margin:.25rem 0 .5rem}
+ input[type='text'],input[type='email'],input[type='tel'],select,textarea{width:100%;padding:.7rem .8rem;border:1px solid #ccc;border-radius:10px;background:#fff}
+ textarea{min-height:140px}
+ input[type='file']{border:1px dashed #ccc;padding:.8rem;border-radius:10px;background:#fafafa}
+ .controls{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;margin-top:.75rem}
+ .btn{appearance:none;border:0;background:var(--maroon);color:#fff;padding:.7rem 1.1rem;border-radius:999px;cursor:pointer}
+ .btn:hover,.btn:focus{background:#6d0f2c}
+ .btn.secondary{background:#eee;color:#111}
+ .status{margin-top:.75rem;padding:.75rem;border-radius:10px;background:#f3f8ff;border:1px solid #cfe3ff}
+ .required:after{content:' *';color:#c00}
+ .recaptcha-placeholder{margin:.5rem 0;padding:.9rem;border:1px dashed #bbb;border-radius:10px;background:#fafafa;color:#333}
+ footer{border-top:1px solid #ececec;background:#fff;margin-top:2rem}
+ .foot{max-width:1100px;margin:0 auto;padding:1rem;color:var(--muted);font-size:.95rem}
+ .foot a{color:var(--maroon)}
+ details{background:#fff;border:1px solid #eee;border-radius:12px;box-shadow:var(--shadow);padding:.8rem}
+ details+details{margin-top:.6rem}
+ 
+/* FAQ accordion arrow sizing and placement (EN: arrow left) */
+summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:.6rem;font-weight:600}
+summary::-webkit-details-marker{display:none}
+.summary-icon{width:14px;height:14px;flex:0 0 14px;display:inline-block}
+details[open] .summary-icon{transform:rotate(90deg)}
+
+ :where(a,button,input,select,textarea,summary){outline:none}
+ :where(a,button,input,select,textarea,summary):focus-visible{box-shadow:0 0 0 3px rgba(10,132,255,.35)}
+ 
+ /* --- Form robustness fixes: prevent overlap/overflow --- */
+ *, *::before, *::after { box-sizing: border-box; }
+ form { overflow: hidden; }
+ .form-grid { gap: 1rem; }
+ .form-grid > div { min-width: 0; }
+ input[type='text'], input[type='email'], input[type='tel'], select, textarea {
+ display: block;
+ max-width: 100%;
+ min-width: 0;
+ line-height: 1.2;
+ box-sizing: border-box;
+ }
+ input[type='file'] { max-width: 100%; }
+ label { display: block; }
+ .controls { flex-wrap: wrap; }
+ textarea { width: 100%; resize: vertical; }
+ /* Handle very long words/emails in labels or hints */
+ .hint, label { overflow-wrap: anywhere; word-break: break-word; }
+ 
+ 
+ /* Contact & Support alignment fix */
+ #contact-support {
+ padding-left: 0;
+ padding-right: 0;
+ }
+ #contact-support .container {
+ margin: 0;
+ padding: 1rem;
+ max-width: 100%;
+ }
+
+ 
+ /* Contact & Support: match section border width exactly */
+ #support .grid-2 { display: block; }
+ #support .grid-2 > .card {
+ padding: 0;
+ margin: 0;
+ border: 0;
+ box-shadow: none;
+ background: transparent;
+ }
+
+ 
+/* Align checkboxes with text fields */
+input[type="checkbox"] {
+ vertical-align: middle;
+ margin-right: 0.5rem;
+}
+[dir="rtl"] input[type="checkbox"] {
+ margin-left: 0.5rem;
+ margin-right: 0;
+}
+
+
+/* Add vertical spacing for meeting checkbox */
+label[for="meetingMS"], input[name="meetingMS"] {
+ margin-top: 1rem !important;
+ margin-bottom: 1rem !important;
+ display: inline-block;
+}
+
+
+/* Meeting MS Teams checkbox: spacing & alignment */
+.meeting-ms { display: inline-flex; align-items: center; gap: .5rem; margin: .75rem 0; }
+[dir="rtl"] .meeting-ms input[type="checkbox"] { margin-left: .5rem; }
+ 
+/* === Unified Button Styles for Add & Remove Attendee === */
+#add-attendee.btn,
+.remove-attendee.btn,
+#attendees-container .btn.remove-attendee,
+#attendees-container .remove-holder .btn {
+  background: var(--maroon) !important;
+  color: #fff !important;
+  border: none !important;
+  width: 200px !important;
+  height: 45px !important;
+  line-height: 45px !important;
+  text-align: center !important;
+  justify-content: center !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  border-radius: 999px !important;
+  cursor: pointer !important;
+}
+#add-attendee.btn:hover,
+.remove-attendee.btn:hover,
+#attendees-container .btn.remove-attendee:hover,
+#attendees-container .remove-holder .btn:hover {
+  background: var(--maroon-dark) !important;
+}
+</style>
+
+<style>
+ /* --- Vertical Tabs Layout (EN: tabs left, AR: tabs right) --- */
+:root{
+ --vtabs-w: 280px;
+}
+nav.quick{ display:none !important; } /* Remove quick nav bar */
+
+.vtabs {
+ display: grid;
+ grid-template-columns: var(--vtabs-w) 1fr;
+ gap: 1rem;
+ align-items: start;
+}
+/* AR: tabs to the right */
+[dir="rtl"] .vtabs {
+ grid-template-columns: 1fr var(--vtabs-w);
+}
+
+.vtabs-tabs {
+ position: sticky;
+ top: 74px; /* below header */
+ max-height: calc(100vh - 90px);
+ overflow: auto;
+ padding: .5rem;
+ border-radius: var(--radius);
+ background: #fff;
+ border: 1px solid #eee;
+ box-shadow: var(--shadow);
+ display: flex;
+ flex-direction: column;
+ gap: .25rem;
+}
+.vtabs-tabs button[role="tab"] {
+ appearance: none;
+ background: transparent;
+ border: 0;
+ text-align: start;
+ padding: .6rem .75rem;
+ border-radius: 10px;
+ cursor: pointer;
+ font-weight: 600;
+ color: var(--ink);
+}
+.vtabs-tabs button[role="tab"]:hover,
+.vtabs-tabs button[role="tab"]:focus-visible {
+ outline: none;
+ box-shadow: 0 0 0 3px rgba(10,132,255,.25);
+}
+.vtabs-tabs button[role="tab"][aria-selected="true"] {
+ background: var(--card);
+ border: 1px solid #e6e6e6;
+ color: var(--maroon);
+}
+
+.vtabs-panels {
+ display: grid;
+ gap: 1rem;
+}
+.vtabs-panel[role="tabpanel"] {
+ display: none;
+}
+.vtabs-panel[role="tabpanel"][data-active="true"] {
+ display: block;
+}
+
+/* Horizontal tabs on small screens */
+@media (max-width: 900px) {
+ .vtabs {
+ grid-template-columns: 1fr;
+ }
+ .vtabs-tabs {
+ position: static;
+ max-height: none;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ overflow: auto;
+ gap: .5rem;
+ padding: .5rem;
+ }
+ .vtabs-tabs button[role="tab"] {
+ white-space: nowrap;
+ border: 1px solid #eee;
+ background: #fff;
+ }
+ .vtabs-panels {
+ margin-top: .5rem;
+ }
+}
+
+/* Improve focus ring on keyboard nav */
+.vtabs-tabs button[role="tab"]:focus-visible {
+ outline: none;
+ box-shadow: 0 0 0 3px rgba(10,132,255,.35);
+}
+ </style>
+<style id="vtabs-ltr-overrides">
+ /* Force tabs left, panels right in LTR — high specificity */
+html[dir="ltr"] body main#content .vtabs,
+html[dir="ltr"] body main .vtabs,
+html[dir="ltr"] .content main .vtabs,
+html[dir="ltr"] .container main .vtabs {
+ display: grid !important;
+ grid-template-columns: var(--vtabs-w) 1fr !important;
+ grid-template-areas: 'tabs panels' !important;
+ gap: 1rem !important;
+ align-items: start !important;
+}
+html[dir="ltr"] body main#content .vtabs .vtabs-tabs,
+html[dir="ltr"] body main .vtabs .vtabs-tabs,
+html[dir="ltr"] .content main .vtabs .vtabs-tabs,
+html[dir="ltr"] .container main .vtabs .vtabs-tabs {
+ grid-area: tabs !important;
+}
+html[dir="ltr"] body main#content .vtabs .vtabs-panels,
+html[dir="ltr"] body main .vtabs .vtabs-panels,
+html[dir="ltr"] .content main .vtabs .vtabs-panels,
+html[dir="ltr"] .container main .vtabs .vtabs-panels {
+ grid-area: panels !important;
+}
+/* Mobile: horizontal tabs then panels */
+@media (max-width: 900px) {
+ html[dir="ltr"] body main#content .vtabs,
+ html[dir="ltr"] body main .vtabs,
+ html[dir="ltr"] .content main .vtabs,
+ html[dir="ltr"] .container main .vtabs {
+ grid-template-columns: 1fr !important;
+ grid-template-areas: 'tabs' 'panels' !important;
+ }
+}
+/* Insulate tab buttons from site-wide card styles */
+html[dir="ltr"] body main .vtabs .vtabs-tabs [role="tab"] {
+ display: block !important;
+ border: 1px solid var(--border, #e6e6e6) !important;
+ background: var(--surface, #fff) !important;
+ border-radius: 10px !important;
+}
+ </style>
+<style id="gta-tab-theme-overrides">
+/* === GTA Tab Theme Overrides (match About Us tabs) === */
+:root{
+ --gta-maroon:#8A1538;
+ --gta-ink:#1b1b1b;
+ --gta-muted:#6b6b6b;
+ --gta-border:#e5e5e5;
+ --gta-card:#ffffff;
+}
+/* Tabs container */
+.vtabs-tabs{
+ background: var(--gta-card) !important;
+ border: 1px solid var(--gta-border) !important;
+ box-shadow: 0 2px 10px rgba(0,0,0,.06) !important;
+ padding: .5rem !important;
+}
+/* Tab button */
+.vtabs-tabs [role="tab"]{
+ font-weight: 600 !important;
+ color: var(--gta-ink) !important;
+ background: transparent !important;
+ border: 1px solid transparent !important;
+ transition: background .15s ease, border-color .15s ease, color .15s ease;
+}
+.vtabs-tabs [role="tab"]:hover{
+ background: #f7f7f7 !important;
+ border-color: var(--gta-border) !important;
+}
+/* Active tab with maroon side indicator (LTR: left, RTL: right) */
+html[dir="ltr"] .vtabs-tabs [role="tab"][aria-selected="true"]{
+ background: #fff !important;
+ border-color: var(--gta-border) !important;
+ color: var(--gta-maroon) !important;
+ box-shadow: inset 4px 0 0 var(--gta-maroon) !important;
+}
+html[dir="rtl"] .vtabs-tabs [role="tab"][aria-selected="true"]{
+ background: #fff !important;
+ border-color: var(--gta-border) !important;
+ color: var(--gta-maroon) !important;
+ box-shadow: inset -4px 0 0 var(--gta-maroon) !important;
+}
+/* Panel cards look */
+.vtabs-panels .card, .vtabs-panels section.card{
+ background: #fff !important;
+ border: 1px solid var(--gta-border) !important;
+ box-shadow: 0 2px 10px rgba(0,0,0,.06) !important;
+}
+.section-head h2{
+ margin: 0 !important;
+ color: var(--gta-maroon) !important;
+ font-weight: 700 !important;
+}
+/* Links */
+.vtabs-panels a{ color: var(--gta-maroon) !important; }
+.vtabs-panels a:hover, .vtabs-panels a:focus{ text-decoration: underline; }
+/* FAQ details style to match site’s simple accordion */
+#faq details{
+ border: 1px solid var(--gta-border) !important;
+ background: #fff !important;
+}
+#faq summary{ color: var(--gta-ink) !important; }
+#faq details[open] summary{ color: var(--gta-maroon) !important; }
+</style>
+<style id="equal-cols-style">
+/* Equal-width two-column rows */
+.row-2col{display:grid;grid-template-columns:1fr;gap:1rem;align-items:start}
+@media(min-width:680px){.row-2col{grid-template-columns:1fr 1fr}}
+.row-2col>div{flex:1 1 300px;min-width:260px}
+/* Keep country code narrow and phone flexible */
+#countryCode{flex:0 0 7rem; width:7rem; max-width:25vw}
+#phone{flex:1 1 auto; min-width:8rem}
+</style><style id="meeting-theme-unified">
+:root{
+ --gta-primary:#8A1538;
+ --card-bg:#fff;
+ --card-brd:#e6e6e6;
+ --card-radius:14px;
+ --card-shadow:0 2px 8px rgba(0,0,0,.04);
+ --ink:#1f2937;
+ --font:'Noto Sans Arabic','Noto Sans','Segoe UI','Helvetica Neue',Arial,sans-serif;
+}
+.meeting-layout{ display:grid; grid-template-columns:minmax(260px,340px) 1fr; gap:1rem; align-items:start; }
+.meeting-layout .card-like{ background:var(--card-bg); border:1px solid var(--card-brd); border-radius:var(--card-radius); box-shadow:var(--card-shadow); padding:1rem; }
+.meeting-type-options{ display:grid; grid-auto-rows:44px; gap:.6rem; }
+.meeting-type-options label{ display:inline-flex; align-items:center; gap:.65rem; width:100%; padding:.6rem .8rem; border-radius:10px; border:1px solid var(--card-brd); background:#fafafa; transition:border-color .15s, background .15s, color .15s; }
+.meeting-type-options label:hover{ background:#f5f5f5; border-color:#d9d9d9; }
+.meeting-type-options label.selected{ border-color:var(--gta-primary); background:#fff; color:var(--gta-primary); }
+.meeting-type-options input[type="checkbox"]{ -webkit-appearance:none; appearance:none; width:18px; height:18px; border-radius:50%; border:2px solid currentColor; position:relative; margin:0; box-sizing:border-box; background:#fff; color:inherit; }
+.meeting-type-options input[type="checkbox"]::after{ content:""; position:absolute; inset:3px; border-radius:50%; background:currentColor; opacity:0; transition:opacity .12s; }
+.meeting-type-options input[type="checkbox"]:checked::after{ opacity:1; }
+#meeting-scheduler.card-like{ transition:border-color .15s, box-shadow .15s, background .15s; }
+#meeting-scheduler.card-like:hover{ border-color:#d9d9d9; background:#fcfcfc; }
+#meeting-scheduler.card-like:focus-within{ border-color:var(--gta-primary); box-shadow:0 0 0 3px rgba(138,21,56,.12); background:#fff; }
+input[type="datetime-local"].dt-input{ width:100%; padding:.75rem .9rem; border:1px solid var(--card-brd); border-radius:10px; background:#fff; color:var(--ink); font-family:var(--font); line-height:1.2; box-sizing:border-box; box-shadow:inset 0 1px 2px rgba(0,0,0,.03); }
+input[type="datetime-local"].dt-input:hover{ border-color:#d9d9d9; background:#fafafa; }
+input[type="datetime-local"].dt-input:focus{ outline:none; border-color:#8A1538; box-shadow:0 0 0 3px rgba(138,21,56,.35); background:#fff; }
+.meeting-note{ grid-column:1 / -1; margin-top:.5rem; font-size:.95rem; color:#374151; }
+@media (max-width:800px){ .meeting-layout{ grid-template-columns:1fr; } .meeting-type-options{ grid-auto-rows:auto; } }
+.attendee-row-plate{ display:flex; gap:1rem; align-items:flex-end; flex-wrap:nowrap; }
+.attendee-row-plate .field{ flex:1 1 300px; min-width:260px; }
+.attendee-row-plate .remove-holder{ flex:0 0 auto; display:flex; align-items:flex-end; }
+.attendee-row-plate .btn{ padding:.55rem 1rem; border-radius:999px; }
+</style><style id="inline-error-style">
+/* Inline validation UI */
+.field-error{ color:#c1121f; font-size:.9rem; margin-top:.25rem; }
+.input-error{ border-color:#c1121f !important; box-shadow:0 0 0 3px rgba(193,18,31,.12) !important; }
+#attendee-instructions{ margin-top: .75rem; }
+#attendee-instructions h4{ margin: 0 0 .4rem 0; color: var(--maroon); }
+</style><style id="idplate-equal-cols">
+/* === Enforced side-by-side layout for Attach ID Copy & Vehicle Number Plate === */
+.attendee-idplate-row{display:grid;grid-template-columns:1fr;gap:1rem;align-items:start}
+@media(min-width:680px){.attendee-idplate-row{grid-template-columns:1fr 1fr}}
+.attendee-idplate-row > .field{min-width:260px}
+
+</style>
+
+<style id="idplate-cols-final">
+@media(min-width:680px){
+  .attendee-idplate-row {
+    display: grid !important;
+    grid-template-columns: 1fr !important; /* single column */
+    gap: 1rem;
+    align-items: start;
+  }
+  .attendee-idplate-row > .field {
+    min-width: 260px;
+  }
+  .attendee-idplate-row > .field input,
+  .attendee-idplate-row > .field select {
+    width: 100% !important;
+    max-width: none !important;
+  }
+}
+</style>
+
+<style id="buttons-fix">
+/* Match Add/Remove Attendee buttons to Submit button height */
+#add-attendee.btn,
+.remove-attendee.btn,
+#attendees-container .btn.remove-attendee,
+#attendees-container .remove-holder .btn {
+  width: 200px !important;         /* keep equal width */
+  height: 38px !important;         /* same as Submit button */
+  line-height: 38px !important;    /* vertically center text */
+  font-size: 0.95rem !important;   /* match font sizing */
+  padding: 0 .9rem !important;     /* adjust padding */
+  text-align: center !important;
+  justify-content: center !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  border-radius: 999px !important;
+  background: var(--maroon) !important;
+  color: #fff !important;
+  border: none !important;
+  cursor: pointer !important;
+}
+
+#add-attendee.btn:hover,
+.remove-attendee.btn:hover,
+#attendees-container .btn.remove-attendee:hover,
+#attendees-container .remove-holder .btn:hover {
+  background: var(--maroon-dark) !important;
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#content">
+ Skip to content
+ </a>
+<header aria-label="Site header" role="banner">
+<div class="topbar">
+<div aria-label="GTA brand" class="brand">
+<div aria-hidden="true" class="logo">
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20">
+<circle cx="12" cy="12" r="9">
+</circle>
+<path d="M8 12h8M12 8v8">
+</path>
+</svg>
+</div>
+<div>
+<strong>Investor Guide - General Tax Authority</strong>
+<div style="font-size:.92rem;color:var(--muted)">
+ State of Qatar
+ </div>
+</div>
+</div>
+</div>
+<nav aria-label="Quick section navigation" class="quick">
+<div class="wrap">
+<a href="#contact-support">
+ Overview
+ </a>
+<a href="#why-qatar">
+ Why Invest
+ </a>
+<a href="#obligations">
+ Tax Obligations
+ </a>
+<a href="#resources">
+ Resources
+ </a>
+<a href="#faq">
+ FAQ
+ </a>
+<a href="#authorities">
+ Ministries &amp; Authorities
+ </a>
+<a href="#contact-support">
+ Contact Form
+ </a>
+<a href="#contact-support">
+ Contact &amp; Support
+ </a>
+</div>
+</nav>
+</header>
+<main id="content">
+<section aria-labelledby="overview-title" class="card" id="overview">
+<div class="section-head">
+<svg aria-hidden="true" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M3 12l9-9 9 9">
+</path>
+<path d="M9 21V9h6v12">
+</path>
+</svg>
+<h2 id="overview-title">
+ Welcome &amp; Overview
+ </h2>
+</div>
+<p>The General Tax Authority (GTA) was established by Emiri Decree No. 77 of 2018, as the entity responsible for enforcing tax laws in the State of Qatar. Its core functions include implementing tax laws, regulations, and related instructions, reviewing and assessing tax returns, and collecting taxes from taxpayers. Guided by the values of integrity, partnership, and excellence, the GTA is committed to crafting a resilient tax ecosystem that supports sustainable national development and aligns with international best practices while catalysing economic growth and ensuring fiscal stability. It also aims to encourage voluntary tax compliance through effective policies, while providing high-quality services using modern digital technologies.</p>
+</section>
+<section aria-labelledby="res-title" class="card" id="resources">
+<div class="section-head">
+<svg aria-hidden="true" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M4 19.5V5a2 2 0 0 1 2-2h9l5 5v11.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z">
+</path>
+<path d="M14 3v5h5">
+</path>
+</svg>
+<h2 id="res-title">
+ Resources &amp; Downloads
+ </h2>
+</div>
+<div class="grid-2">
+<div class="card" style="background:#fff">
+<h3>
+ Laws and Regulations
+ </h3>
+<ul class="clean">
+<li>
+<strong>
+ Income Tax Law No. 24 of 2018
+ </strong>
+</li>
+<li>
+<strong>
+ Excise Tax Law No. 25 of 2018
+ </strong>
+</li>
+<li>
+<strong>
+ Executive Regulations
+ </strong>
+</li>
+<li>
+<strong>
+ Official Circulars
+ </strong>
+</li>
+</ul>
+</div>
+<div class="card" style="background:#fff">
+<h3>
+ International Agreements &amp; Guidance
+ </h3>
+<ul class="clean">
+<li>
+<strong>
+ Tax Treaty List
+ </strong>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<section aria-labelledby="faq-title" class="card" id="faq"><div class="section-head"><svg aria-hidden="true" class="summary-icon" fill="none" stroke="currentColor" viewbox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg><h2 id="faq-title">Frequently Asked Questions (FAQ)</h2></div><details><summary><svg class="summary-icon" fill="none" stroke="currentColor" viewbox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>1. What are the types of taxes in the State of Qatar?</summary><div class="faq-a">
+<p>According to the Qatari Tax Law issued by the General Tax Authority (GTA), the main taxes include:</p>
+<ul>
+<li><strong>Income Tax:</strong><br/>• 10% on the net income generated in Qatar.<br/>• 35% for the oil and petrochemicals sector.</li>
+<li><strong>Withholding Tax:</strong><br/>• 5% on payments to non-residents for services or rights.</li>
+<li><strong>Capital Gains Tax:</strong><br/>• 10% on the sale of real estate or securities within Qatar (within 30 days of the transfer).<br/>• 35% if linked to the oil and petrochemicals sector.</li>
+<li><strong>Excise Tax:</strong><br/>A consumption tax applied to goods considered harmful to human health or the environment, aimed at reducing consumption and funding public services such as healthcare, education, and infrastructure.</li>
+</ul>
+<table border="1" cellpadding="6" cellspacing="0">
+<tr><th>Product/ Category</th><th>Applicable Rate</th></tr>
+<tr><td>Tobacco products and derivatives</td><td>100% of the higher price, either the standard or retail price before tax.</td></tr>
+<tr><td>Energy drinks</td><td>100% of the higher price, either the standard or retail price before tax.</td></tr>
+<tr><td>Soft drinks</td><td>50% of the higher price, either the standard or retail price before tax.</td></tr>
+<tr><td>Other special-category goods</td><td>100% of the higher price, either the standard or retail price before tax.</td></tr>
+</table>
+</div></details><details><summary><svg class="summary-icon" fill="none" stroke="currentColor" viewbox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>2. What is the registration link for corporate tax in Qatar?</summary><div class="faq-a"><p>You can register through the Dhareeba Tax Portal and obtain a Tax Identification Number (TIN).</p></div></details><details><summary><svg class="summary-icon" fill="none" stroke="currentColor" viewbox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>3. Is Value Added Tax (VAT) applied in Qatar?</summary><div class="faq-a"><p>No, Qatar has not applied the Value Added Tax (VAT).</p></div></details><details><summary><svg class="summary-icon" fill="none" stroke="currentColor" viewbox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>4. What is the deadline for filing the annual tax return?</summary><div class="faq-a"><p>The tax return must be filed within 4 months after the end of the tax year.</p></div></details><details><summary><svg class="summary-icon" fill="none" stroke="currentColor" viewbox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>5. What are the financial penalties related to tax in Qatar?</summary><div class="faq-a">
+<p>Financial penalties by type of violation:</p>
+<ul>
+<li>Late filing of the tax return: QAR 500 for each day of delay, capped at QAR 180,000.</li>
+<li>Late tax payment: 2% of the due amount per month, capped at QAR 100% of the total tax amount due.</li>
+<li>Failure to register or comply with registration or notification provisions: QAR 20,000.</li>
+<li>Failure to maintain accounting records: QAR 30,000.</li>
+<li>Failure to notify the Authority of contracts within 30 days: QAR 10,000.</li>
+<li>Failure to file the Withholding Tax Return: a fine equals the amount of tax not withheld, in addition to the tax itself.</li>
+</ul>
+</div></details><details><summary><svg class="summary-icon" fill="none" stroke="currentColor" viewbox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>6. Does the Qatari law require companies to appoint an accounting office to submit financial statements and tax returns?</summary><div class="faq-a">
+<p><strong>1. Companies 100% owned by Qatari or GCC nationals, with proven residency in Qatar for at least 183 days:</strong></p>
+<ul>
+<li>Legally, appointing an accredited accounting office is not required to submit financial statements and tax returns via the system.</li>
+<li>However, if the company has capital of at least QAR 1 million or annual income of at least QAR 5 million, it must submit a full tax return supported by audited financial statements.</li>
+</ul>
+<p><strong>2. Companies with Qatari and foreign partners or fully foreign-owned companies, or is located outside of the state:</strong></p>
+<ul>
+<li>Returns must be supported by audited financial statements from a licensed auditor registered with the General Tax Authority, regardless of capital or income amount.</li>
+</ul>
+</div></details><details><summary><svg class="summary-icon" fill="none" stroke="currentColor" viewbox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>7. How is the tax paid?</summary><div class="faq-a">
+<p>The tax is paid through the Dhareeba Tax Portal, via the following methods:</p>
+<ol>
+<li>Direct payment</li>
+<li>Credit/ debit card</li>
+</ol>
+</div></details><details><summary><svg class="summary-icon" fill="none" stroke="currentColor" viewbox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>8. What incentives does Qatar offer foreign investors?</summary><div class="faq-a">
+<ul>
+<li><strong>Full foreign ownership:</strong> Foreign investors may own 100% of companies in specified sectors under the Investment Law No. 1 of 2019.</li>
+<li><strong>Tax exemptions:</strong> Income tax exemptions for up to 10 years, depending on the project type and location.</li>
+<li><strong>Land allocation:</strong> Possibility of allocating land to foreign investment projects under long-term leases of up to 50 years.</li>
+<li><strong>Additional incentives for strategic projects:</strong> Expanded tax exemptions for certain strategic projects.</li>
+</ul>
+</div></details><details><summary><svg class="summary-icon" fill="none" stroke="currentColor" viewbox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>9. Which sectors and economic activities are granted tax exemptions from the General Tax Authority?</summary><div class="faq-a">
+<ul>
+<li><strong>Strategic projects eligible for a temporary exemption:</strong> Exemptions, for 5 to 10 years, may be granted to projects of strategic importance to Qatar’s economy, based on legal criteria.</li>
+<li><strong>Sectors and zones under the preferential system include:</strong></li>
+<ul>
+<li>Companies wholly owned by Qatari or GCC nationals benefit from a full corporate tax exemption.</li>
+<li>Strategic sectors such as agriculture, health, education and tourism may receive additional tax exemptions or streamlined procedures.</li>
+<li>Qatar Science &amp; Technology Park (QSTP): entities conducting research and development receive a full corporate tax exemption. However, a tax return must still be filed.</li>
+<li>Qatar’s free zones offer competitive tax exemptions, including a 20-year corporate tax exemption, no personal income tax, and no customs duties on imports. Foreign investors benefit from 100% foreign ownership of capital, with the ability to fully repatriate it.</li>
+<li>Media City Qatar offers a full exemption of up to 20 years, in addition to simplified regulations and full foreign ownership.</li>
+</ul>
+</ul>
+</div></details><details><summary><svg class="summary-icon" fill="none" stroke="currentColor" viewbox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>10. How is tax handled when ownership is shared between Qatari and foreign partners?</summary><div class="faq-a">
+<ul>
+<li>Qatari Partner: fully exempt from income tax.</li>
+<li>Foreign partner: subject to 10% income tax on their share of the company’s net profit.</li>
+</ul>
+</div></details></section>
+<section aria-labelledby="auth-title" class="card" id="authorities">
+<div class="section-head">
+<svg aria-hidden="true" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M3 10h18M5 6h14M7 14h10M9 18h6">
+</path>
+</svg>
+<h2 id="auth-title">
+ Relevant Ministries &amp; Authorities
+ </h2>
+</div>
+<div class="tiles" role="list">
+<a class="tile" href="https://www.mof.gov.qa" rel="noopener" role="listitem" target="_blank">
+<svg fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M3 21V8l9-5 9 5v13">
+</path>
+<path d="M9 22V12h6v10">
+</path>
+</svg>
+<span>
+ Ministry of Finance (MOF)
+ </span>
+</a>
+<a class="tile" href="https://www.moci.gov.qa" rel="noopener" role="listitem" target="_blank">
+<svg fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<rect height="14" rx="2" width="18" x="3" y="3">
+</rect>
+<path d="M7 21h10M12 17v4">
+</path>
+</svg>
+<span>
+ Ministry of Commerce &amp; Industry (MOCI)
+ </span>
+</a>
+<a class="tile" href="https://www.invest.qa" rel="noopener" role="listitem" target="_blank">
+<svg fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M3 12h7l2-3 2 6 2-4h5">
+</path>
+<circle cx="5" cy="12" r="1">
+</circle>
+</svg>
+<span>
+ Investment Promotion Agency (IPA Qatar)
+ </span>
+</a>
+<a class="tile" href="https://www.qcb.gov.qa" rel="noopener" role="listitem" target="_blank">
+<svg fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<circle cx="12" cy="12" r="9">
+</circle>
+<path d="M8 12h8M12 8v8">
+</path>
+</svg>
+<span>
+ Qatar Central Bank (QCB)
+ </span>
+</a>
+<a class="tile" href="https://www.fza.gov.qa" rel="noopener" role="listitem" target="_blank">
+<svg fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M4 20V8l8-5 8 5v12">
+</path>
+<path d="M9 22V12h6v10">
+</path>
+</svg>
+<span>
+ Qatar Free Zones Authority (QFZA)
+ </span>
+</a>
+<a class="tile" href="https://www.qfc.qa" rel="noopener" role="listitem" target="_blank">
+<svg fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<rect height="16" rx="3" width="16" x="4" y="4">
+</rect>
+<path d="M8 8h8v8H8z">
+</path>
+</svg>
+<span>
+ Qatar Financial Centre (QFC)
+ </span>
+</a>
+<a class="tile" href="https://www.qe.com.qa" rel="noopener" role="listitem" target="_blank">
+<svg fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M4 18V6M10 18V3M16 18v-8M22 18V8">
+</path>
+<path d="M2 18h20">
+</path>
+</svg>
+<span>
+ Qatar Stock Exchange (QSE)
+ </span>
+</a>
+<a class="tile" href="https://www.qatarchamber.com" rel="noopener" role="listitem" target="_blank">
+<svg fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M3 12h18">
+</path>
+<path d="M5 7h14M7 17h10">
+</path>
+</svg>
+<span>
+ Qatar Chamber of Commerce &amp; Industry
+ </span>
+</a>
+</div>
+</section>
+<section id="contact-support">
+<div class="section-head">
+<svg aria-hidden="true" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M22 16.92V19a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 3 5.18 2 2 0 0 1 5 3h2.09A2 2 0 0 1 9 4.72l.7 2.3a2 2 0 0 1-.45 2.11l-1 1a16 16 0 0 0 6.84 6.84l1-1a2 2 0 0 1 2.11-.45l2.3.7A2 2 0 0 1 22 16.92z">
+</path>
+</svg>
+<h2 id="contact-title">
+ Contact &amp; Support
+ </h2>
+</div>
+<form aria-describedby="form-hint" id="investor-form" novalidate="">
+<p class="hint" id="form-hint">Please complete all required fields.</p>
+<div aria-atomic="true" aria-live="polite" class="status" hidden="" id="status" role="status">
+</div>
+<div id="reordered-fields"><div class="row-2col" style="display:flex; gap:1rem; flex-wrap:wrap; align-items:flex-start;"><div>
+<label class="required" for="fullName">
+ Full Name
+ </label>
+<input autocomplete="name" id="fullName" name="fullName" placeholder="e.g., Jane Doe" required="" type="text"/>
+<div class="hint">
+ Enter your first and last name.
+ </div>
+</div><div>
+<label for="company">
+ Company / Organization
+ </label>
+<input id="company" name="company" placeholder="e.g., Example Investments LLC" type="text"/>
+</div></div><div class="row-2col" style="display:flex; gap:1rem; flex-wrap:wrap; align-items:flex-start;"><div>
+<label class="required" for="country">
+ Country of Origin
+ </label>
+<select id="country" name="country" required="required">
+<option value="">
+ Select a country
+ </option>
+<option>
+ Afghanistan
+ </option>
+<option>
+ Albania
+ </option>
+<option>
+ Algeria
+ </option>
+<option>
+ Andorra
+ </option>
+<option>
+ Angola
+ </option>
+<option>
+ Antigua and Barbuda
+ </option>
+<option>
+ Argentina
+ </option>
+<option>
+ Armenia
+ </option>
+<option>
+ Australia
+ </option>
+<option>
+ Austria
+ </option>
+<option>
+ Azerbaijan
+ </option>
+<option>
+ Bahamas
+ </option>
+<option>
+ Bahrain
+ </option>
+<option>
+ Bangladesh
+ </option>
+<option>
+ Barbados
+ </option>
+<option>
+ Belarus
+ </option>
+<option>
+ Belgium
+ </option>
+<option>
+ Belize
+ </option>
+<option>
+ Benin
+ </option>
+<option>
+ Bhutan
+ </option>
+<option>
+ Bolivia
+ </option>
+<option>
+ Bosnia and Herzegovina
+ </option>
+<option>
+ Botswana
+ </option>
+<option>
+ Brazil
+ </option>
+<option>
+ Brunei
+ </option>
+<option>
+ Bulgaria
+ </option>
+<option>
+ Burkina Faso
+ </option>
+<option>
+ Burundi
+ </option>
+<option>
+ Cabo Verde
+ </option>
+<option>
+ Cambodia
+ </option>
+<option>
+ Cameroon
+ </option>
+<option>
+ Canada
+ </option>
+<option>
+ Central African Republic
+ </option>
+<option>
+ Chad
+ </option>
+<option>
+ Chile
+ </option>
+<option>
+ China
+ </option>
+<option>
+ Colombia
+ </option>
+<option>
+ Comoros
+ </option>
+<option>
+ Congo (Congo-Brazzaville)
+ </option>
+<option>
+ Costa Rica
+ </option>
+<option>
+ Croatia
+ </option>
+<option>
+ Cuba
+ </option>
+<option>
+ Cyprus
+ </option>
+<option>
+ Czechia
+ </option>
+<option>
+ Democratic Republic of the Congo
+ </option>
+<option>
+ Denmark
+ </option>
+<option>
+ Djibouti
+ </option>
+<option>
+ Dominica
+ </option>
+<option>
+ Dominican Republic
+ </option>
+<option>
+ Ecuador
+ </option>
+<option>
+ Egypt
+ </option>
+<option>
+ El Salvador
+ </option>
+<option>
+ Equatorial Guinea
+ </option>
+<option>
+ Eritrea
+ </option>
+<option>
+ Estonia
+ </option>
+<option>
+ Eswatini
+ </option>
+<option>
+ Ethiopia
+ </option>
+<option>
+ Fiji
+ </option>
+<option>
+ Finland
+ </option>
+<option>
+ France
+ </option>
+<option>
+ Gabon
+ </option>
+<option>
+ Gambia
+ </option>
+<option>
+ Georgia
+ </option>
+<option>
+ Germany
+ </option>
+<option>
+ Ghana
+ </option>
+<option>
+ Greece
+ </option>
+<option>
+ Grenada
+ </option>
+<option>
+ Guatemala
+ </option>
+<option>
+ Guinea
+ </option>
+<option>
+ Guinea-Bissau
+ </option>
+<option>
+ Guyana
+ </option>
+<option>
+ Haiti
+ </option>
+<option>
+ Honduras
+ </option>
+<option>
+ Hungary
+ </option>
+<option>
+ Iceland
+ </option>
+<option>
+ India
+ </option>
+<option>
+ Indonesia
+ </option>
+<option>
+ Iran
+ </option>
+<option>
+ Iraq
+ </option>
+<option>
+ Ireland
+ </option>
+<option>
+ Israel
+ </option>
+<option>
+ Italy
+ </option>
+<option>
+ Jamaica
+ </option>
+<option>
+ Japan
+ </option>
+<option>
+ Jordan
+ </option>
+<option>
+ Kazakhstan
+ </option>
+<option>
+ Kenya
+ </option>
+<option>
+ Kiribati
+ </option>
+<option>
+ Kuwait
+ </option>
+<option>
+ Kyrgyzstan
+ </option>
+<option>
+ Laos
+ </option>
+<option>
+ Latvia
+ </option>
+<option>
+ Lebanon
+ </option>
+<option>
+ Lesotho
+ </option>
+<option>
+ Liberia
+ </option>
+<option>
+ Libya
+ </option>
+<option>
+ Liechtenstein
+ </option>
+<option>
+ Lithuania
+ </option>
+<option>
+ Luxembourg
+ </option>
+<option>
+ Madagascar
+ </option>
+<option>
+ Malawi
+ </option>
+<option>
+ Malaysia
+ </option>
+<option>
+ Maldives
+ </option>
+<option>
+ Mali
+ </option>
+<option>
+ Malta
+ </option>
+<option>
+ Marshall Islands
+ </option>
+<option>
+ Mauritania
+ </option>
+<option>
+ Mauritius
+ </option>
+<option>
+ Mexico
+ </option>
+<option>
+ Micronesia
+ </option>
+<option>
+ Moldova
+ </option>
+<option>
+ Monaco
+ </option>
+<option>
+ Mongolia
+ </option>
+<option>
+ Montenegro
+ </option>
+<option>
+ Morocco
+ </option>
+<option>
+ Mozambique
+ </option>
+<option>
+ Myanmar
+ </option>
+<option>
+ Namibia
+ </option>
+<option>
+ Nauru
+ </option>
+<option>
+ Nepal
+ </option>
+<option>
+ Netherlands
+ </option>
+<option>
+ New Zealand
+ </option>
+<option>
+ Nicaragua
+ </option>
+<option>
+ Niger
+ </option>
+<option>
+ Nigeria
+ </option>
+<option>
+ North Korea
+ </option>
+<option>
+ North Macedonia
+ </option>
+<option>
+ Norway
+ </option>
+<option>
+ Oman
+ </option>
+<option>
+ Pakistan
+ </option>
+<option>
+ Palau
+ </option>
+<option>
+ Panama
+ </option>
+<option>
+ Papua New Guinea
+ </option>
+<option>
+ Paraguay
+ </option>
+<option>
+ Peru
+ </option>
+<option>
+ Philippines
+ </option>
+<option>
+ Poland
+ </option>
+<option>
+ Portugal
+ </option>
+<option>
+ Qatar
+ </option>
+<option>
+ Romania
+ </option>
+<option>
+ Russia
+ </option>
+<option>
+ Rwanda
+ </option>
+<option>
+ Saint Kitts and Nevis
+ </option>
+<option>
+ Saint Lucia
+ </option>
+<option>
+ Saint Vincent and the Grenadines
+ </option>
+<option>
+ Samoa
+ </option>
+<option>
+ San Marino
+ </option>
+<option>
+ Sao Tome and Principe
+ </option>
+<option>
+ Saudi Arabia
+ </option>
+<option>
+ Senegal
+ </option>
+<option>
+ Serbia
+ </option>
+<option>
+ Seychelles
+ </option>
+<option>
+ Sierra Leone
+ </option>
+<option>
+ Singapore
+ </option>
+<option>
+ Slovakia
+ </option>
+<option>
+ Slovenia
+ </option>
+<option>
+ Solomon Islands
+ </option>
+<option>
+ Somalia
+ </option>
+<option>
+ South Africa
+ </option>
+<option>
+ South Korea
+ </option>
+<option>
+ South Sudan
+ </option>
+<option>
+ Spain
+ </option>
+<option>
+ Sri Lanka
+ </option>
+<option>
+ Sudan
+ </option>
+<option>
+ Suriname
+ </option>
+<option>
+ Sweden
+ </option>
+<option>
+ Switzerland
+ </option>
+<option>
+ Syria
+ </option>
+<option>
+ Tajikistan
+ </option>
+<option>
+ Tanzania
+ </option>
+<option>
+ Thailand
+ </option>
+<option>
+ Timor-Leste
+ </option>
+<option>
+ Togo
+ </option>
+<option>
+ Tonga
+ </option>
+<option>
+ Trinidad and Tobago
+ </option>
+<option>
+ Tunisia
+ </option>
+<option>
+ Turkey
+ </option>
+<option>
+ Turkmenistan
+ </option>
+<option>
+ Tuvalu
+ </option>
+<option>
+ Uganda
+ </option>
+<option>
+ Ukraine
+ </option>
+<option>
+ United Arab Emirates
+ </option>
+<option>
+ United Kingdom
+ </option>
+<option>
+ United States
+ </option>
+<option>
+ Uruguay
+ </option>
+<option>
+ Uzbekistan
+ </option>
+<option>
+ Vanuatu
+ </option>
+<option>
+ Vatican City
+ </option>
+<option>
+ Venezuela
+ </option>
+<option>
+ Vietnam
+ </option>
+<option>
+ Yemen
+ </option>
+<option>
+ Zambia
+ </option>
+<option>
+ Zimbabwe
+ </option>
+</select>
+</div><div>
+<label class="required" for="subjectSelect">Subject</label>
+<select id="subjectSelect" name="subjectSelect" required="">
+<option value="">Select a subject</option>
+<option>Income Tax Inquiries</option>
+<option>Withholding Tax Inquiries</option>
+<option>Consumption Tax Inquiries</option>
+<option>General Inquiries</option>
+</select>
+<div class="hint">Choose a category for your inquiry.</div>
+</div></div><div id="general-subject-wrap" style="display:none;">
+<label class="required" for="generalSubject">Subject (General Inquiries)</label>
+<input id="generalSubject" name="generalSubject" placeholder="Enter the subject details of your inquiry" type="text"/>
+<div class="hint">Required only when "General Inquiries" is selected above.</div>
+</div><div style="grid-column:1/-1">
+<label class="required" for="message">
+ Message
+ </label>
+<textarea id="message" name="message" placeholder="Please describe your inquiry..." required></textarea>
+</div><div style="grid-column:1/-1">
+<label for="attachment">
+ Attachment Upload (optional)
+ </label>
+<input accept=".pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.png,.jpg,.jpeg,.gif" id="attachment" name="attachment" type="file"/>
+<div class="hint">
+ Accepted types: PDF, Office documents, images.
+ </div>
+<div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:flex-start;">
+</div></div><div class="row-2col" style="display:flex; gap:1rem; flex-wrap:wrap; align-items:flex-start;"><div>
+<label class="required" for="email">
+ Email Address
+ </label>
+<input autocomplete="email" id="email" inputmode="email" name="email" placeholder="name@example.com" required="" type="email"/>
+<div class="hint">
+ We will send an auto‑reply confirmation to this address.
+ </div>
+</div><div>
+<label class="required" for="phone">Phone Number</label>
+<div class="phone-input-row" style="display:flex; gap:.5rem; align-items:center; flex-wrap:wrap;">
+<select id="countryCode" name="countryCode" required="" style="flex:0 0 7rem; width:7rem; max-width:25vw;">
+<option value="">Dial code</option>
+<option value="+93">+93 Afghanistan</option>
+<option value="+355">+355 Albania</option>
+<option value="+213">+213 Algeria</option>
+<option value="+1">+1 American Samoa</option>
+<option value="+376">+376 Andorra</option>
+<option value="+244">+244 Angola</option>
+<option value="+1">+1 Anguilla</option>
+<option value="+672">+672 Antarctica</option>
+<option value="+1">+1 Antigua and Barbuda</option>
+<option value="+54">+54 Argentina</option>
+<option value="+374">+374 Armenia</option>
+<option value="+297">+297 Aruba</option>
+<option value="+61">+61 Australia</option>
+<option value="+43">+43 Austria</option>
+<option value="+994">+994 Azerbaijan</option>
+<option value="+1">+1 Bahamas</option>
+<option value="+973">+973 Bahrain</option>
+<option value="+880">+880 Bangladesh</option>
+<option value="+1">+1 Barbados</option>
+<option value="+375">+375 Belarus</option>
+<option value="+32">+32 Belgium</option>
+<option value="+501">+501 Belize</option>
+<option value="+229">+229 Benin</option>
+<option value="+1">+1 Bermuda</option>
+<option value="+975">+975 Bhutan</option>
+<option value="+591">+591 Bolivia</option>
+<option value="+599">+599 Bonaire, Sint Eustatius and Saba</option>
+<option value="+387">+387 Bosnia and Herzegovina</option>
+<option value="+267">+267 Botswana</option>
+<option value="+55">+55 Brazil</option>
+<option value="+246">+246 British Indian Ocean Territory</option>
+<option value="+1">+1 British Virgin Islands</option>
+<option value="+673">+673 Brunei</option>
+<option value="+359">+359 Bulgaria</option>
+<option value="+226">+226 Burkina Faso</option>
+<option value="+257">+257 Burundi</option>
+<option value="+238">+238 Cabo Verde</option>
+<option value="+855">+855 Cambodia</option>
+<option value="+237">+237 Cameroon</option>
+<option value="+1">+1 Canada</option>
+<option value="+1">+1 Cayman Islands</option>
+<option value="+236">+236 Central African Republic</option>
+<option value="+235">+235 Chad</option>
+<option value="+56">+56 Chile</option>
+<option value="+86">+86 China</option>
+<option value="+61">+61 Christmas Island</option>
+<option value="+61">+61 Cocos (Keeling) Islands</option>
+<option value="+57">+57 Colombia</option>
+<option value="+269">+269 Comoros</option>
+<option value="+243">+243 Congo (DRC)</option>
+<option value="+242">+242 Congo (Republic)</option>
+<option value="+682">+682 Cook Islands</option>
+<option value="+506">+506 Costa Rica</option>
+<option value="+385">+385 Croatia</option>
+<option value="+53">+53 Cuba</option>
+<option value="+599">+599 Curaçao</option>
+<option value="+357">+357 Cyprus</option>
+<option value="+420">+420 Czechia</option>
+<option value="+225">+225 Côte d’Ivoire</option>
+<option value="+45">+45 Denmark</option>
+<option value="+253">+253 Djibouti</option>
+<option value="+1">+1 Dominica</option>
+<option value="+1">+1 Dominican Republic</option>
+<option value="+593">+593 Ecuador</option>
+<option value="+20">+20 Egypt</option>
+<option value="+503">+503 El Salvador</option>
+<option value="+240">+240 Equatorial Guinea</option>
+<option value="+291">+291 Eritrea</option>
+<option value="+372">+372 Estonia</option>
+<option value="+268">+268 Eswatini</option>
+<option value="+251">+251 Ethiopia</option>
+<option value="+500">+500 Falkland Islands</option>
+<option value="+298">+298 Faroe Islands</option>
+<option value="+679">+679 Fiji</option>
+<option value="+358">+358 Finland</option>
+<option value="+33">+33 France</option>
+<option value="+594">+594 French Guiana</option>
+<option value="+689">+689 French Polynesia</option>
+<option value="+241">+241 Gabon</option>
+<option value="+220">+220 Gambia</option>
+<option value="+995">+995 Georgia</option>
+<option value="+49">+49 Germany</option>
+<option value="+233">+233 Ghana</option>
+<option value="+350">+350 Gibraltar</option>
+<option value="+30">+30 Greece</option>
+<option value="+299">+299 Greenland</option>
+<option value="+1">+1 Grenada</option>
+<option value="+590">+590 Guadeloupe</option>
+<option value="+1">+1 Guam</option>
+<option value="+502">+502 Guatemala</option>
+<option value="+44">+44 Guernsey</option>
+<option value="+224">+224 Guinea</option>
+<option value="+245">+245 Guinea-Bissau</option>
+<option value="+592">+592 Guyana</option>
+<option value="+509">+509 Haiti</option>
+<option value="+504">+504 Honduras</option>
+<option value="+852">+852 Hong Kong SAR</option>
+<option value="+36">+36 Hungary</option>
+<option value="+354">+354 Iceland</option>
+<option value="+91">+91 India</option>
+<option value="+62">+62 Indonesia</option>
+<option value="+98">+98 Iran</option>
+<option value="+964">+964 Iraq</option>
+<option value="+353">+353 Ireland</option>
+<option value="+44">+44 Isle of Man</option>
+<option value="+972">+972 Israel</option>
+<option value="+39">+39 Italy</option>
+<option value="+1">+1 Jamaica</option>
+<option value="+81">+81 Japan</option>
+<option value="+44">+44 Jersey</option>
+<option value="+962">+962 Jordan</option>
+<option value="+7">+7 Kazakhstan</option>
+<option value="+254">+254 Kenya</option>
+<option value="+686">+686 Kiribati</option>
+<option value="+850">+850 Korea, North</option>
+<option value="+82">+82 Korea, South</option>
+<option value="+965">+965 Kuwait</option>
+<option value="+996">+996 Kyrgyzstan</option>
+<option value="+856">+856 Laos</option>
+<option value="+371">+371 Latvia</option>
+<option value="+961">+961 Lebanon</option>
+<option value="+266">+266 Lesotho</option>
+<option value="+231">+231 Liberia</option>
+<option value="+218">+218 Libya</option>
+<option value="+423">+423 Liechtenstein</option>
+<option value="+370">+370 Lithuania</option>
+<option value="+352">+352 Luxembourg</option>
+<option value="+853">+853 Macau SAR</option>
+<option value="+261">+261 Madagascar</option>
+<option value="+265">+265 Malawi</option>
+<option value="+60">+60 Malaysia</option>
+<option value="+960">+960 Maldives</option>
+<option value="+223">+223 Mali</option>
+<option value="+356">+356 Malta</option>
+<option value="+692">+692 Marshall Islands</option>
+<option value="+596">+596 Martinique</option>
+<option value="+222">+222 Mauritania</option>
+<option value="+230">+230 Mauritius</option>
+<option value="+262">+262 Mayotte</option>
+<option value="+52">+52 Mexico</option>
+<option value="+691">+691 Micronesia</option>
+<option value="+373">+373 Moldova</option>
+<option value="+377">+377 Monaco</option>
+<option value="+976">+976 Mongolia</option>
+<option value="+382">+382 Montenegro</option>
+<option value="+1">+1 Montserrat</option>
+<option value="+212">+212 Morocco</option>
+<option value="+258">+258 Mozambique</option>
+<option value="+95">+95 Myanmar (Burma)</option>
+<option value="+264">+264 Namibia</option>
+<option value="+674">+674 Nauru</option>
+<option value="+977">+977 Nepal</option>
+<option value="+31">+31 Netherlands</option>
+<option value="+687">+687 New Caledonia</option>
+<option value="+64">+64 New Zealand</option>
+<option value="+505">+505 Nicaragua</option>
+<option value="+227">+227 Niger</option>
+<option value="+234">+234 Nigeria</option>
+<option value="+683">+683 Niue</option>
+<option value="+672">+672 Norfolk Island</option>
+<option value="+389">+389 North Macedonia</option>
+<option value="+1">+1 Northern Mariana Islands</option>
+<option value="+47">+47 Norway</option>
+<option value="+968">+968 Oman</option>
+<option value="+92">+92 Pakistan</option>
+<option value="+680">+680 Palau</option>
+<option value="+970">+970 Palestine</option>
+<option value="+507">+507 Panama</option>
+<option value="+675">+675 Papua New Guinea</option>
+<option value="+595">+595 Paraguay</option>
+<option value="+51">+51 Peru</option>
+<option value="+63">+63 Philippines</option>
+<option value="+870">+870 Pitcairn Islands</option>
+<option value="+48">+48 Poland</option>
+<option value="+351">+351 Portugal</option>
+<option value="+1">+1 Puerto Rico</option>
+<option value="+974">+974 Qatar</option>
+<option value="+40">+40 Romania</option>
+<option value="+7">+7 Russia</option>
+<option value="+250">+250 Rwanda</option>
+<option value="+262">+262 Réunion</option>
+<option value="+590">+590 Saint Barthélemy</option>
+<option value="+290">+290 Saint Helena, Ascension and Tristan da Cunha</option>
+<option value="+1">+1 Saint Kitts and Nevis</option>
+<option value="+1">+1 Saint Lucia</option>
+<option value="+590">+590 Saint Martin</option>
+<option value="+508">+508 Saint Pierre and Miquelon</option>
+<option value="+1">+1 Saint Vincent and the Grenadines</option>
+<option value="+685">+685 Samoa</option>
+<option value="+378">+378 San Marino</option>
+<option value="+966">+966 Saudi Arabia</option>
+<option value="+221">+221 Senegal</option>
+<option value="+381">+381 Serbia</option>
+<option value="+248">+248 Seychelles</option>
+<option value="+232">+232 Sierra Leone</option>
+<option value="+65">+65 Singapore</option>
+<option value="+1">+1 Sint Maarten</option>
+<option value="+421">+421 Slovakia</option>
+<option value="+386">+386 Slovenia</option>
+<option value="+677">+677 Solomon Islands</option>
+<option value="+252">+252 Somalia</option>
+<option value="+27">+27 South Africa</option>
+<option value="+500">+500 South Georgia and the South Sandwich Islands</option>
+<option value="+211">+211 South Sudan</option>
+<option value="+34">+34 Spain</option>
+<option value="+94">+94 Sri Lanka</option>
+<option value="+249">+249 Sudan</option>
+<option value="+597">+597 Suriname</option>
+<option value="+47">+47 Svalbard and Jan Mayen</option>
+<option value="+46">+46 Sweden</option>
+<option value="+41">+41 Switzerland</option>
+<option value="+963">+963 Syria</option>
+<option value="+239">+239 São Tomé and Príncipe</option>
+<option value="+886">+886 Taiwan</option>
+<option value="+992">+992 Tajikistan</option>
+<option value="+255">+255 Tanzania</option>
+<option value="+66">+66 Thailand</option>
+<option value="+670">+670 Timor-Leste</option>
+<option value="+228">+228 Togo</option>
+<option value="+690">+690 Tokelau</option>
+<option value="+676">+676 Tonga</option>
+<option value="+1">+1 Trinidad and Tobago</option>
+<option value="+216">+216 Tunisia</option>
+<option value="+993">+993 Turkmenistan</option>
+<option value="+1">+1 Turks and Caicos Islands</option>
+<option value="+688">+688 Tuvalu</option>
+<option value="+90">+90 Türkiye</option>
+<option value="+256">+256 Uganda</option>
+<option value="+380">+380 Ukraine</option>
+<option value="+971">+971 United Arab Emirates</option>
+<option value="+44">+44 United Kingdom</option>
+<option value="+1">+1 United States</option>
+<option value="+598">+598 Uruguay</option>
+<option value="+998">+998 Uzbekistan</option>
+<option value="+678">+678 Vanuatu</option>
+<option value="+39">+39 Vatican City</option>
+<option value="+58">+58 Venezuela</option>
+<option value="+84">+84 Vietnam</option>
+<option value="+681">+681 Wallis and Futuna</option>
+<option value="+212">+212 Western Sahara</option>
+<option value="+967">+967 Yemen</option>
+<option value="+260">+260 Zambia</option>
+<option value="+263">+263 Zimbabwe</option>
+</select>
+<input autocomplete="tel" id="phone" inputmode="tel" name="phone" placeholder="1234 5678" required="" style="flex:1 1 calc(100% - 8rem); min-width:8rem;" type="tel"/>
+</div>
+</div></div><div id="meeting-block"><label>Request for a Meeting (Optional)</label><div class="meeting-layout"><div class="meeting-type-options card-like"><label><input id="meetingOnline" name="meetingType" type="checkbox" value="online"/><span class="label-text">Online (MS Teams)</span></label><label><input id="meetingOnsite" name="meetingType" type="checkbox" value="onsite"/><span class="label-text">Onsite</span></label></div><div class="card-like" id="meeting-scheduler"><label class="required" for="meetingDateTime">Select your preferred time slot for the meeting (Qatar Time, UTC+3) </label><input class="dt-input" id="meetingDateTime" name="meetingDateTime" type="datetime-local"/></div></div><div class="meeting-note">Times are in Qatar Time (UTC+3). Please choose a slot within Office Hours (07:00–14:00, Sun–Thu).</div><div class="card" id="attendees-container" style="display:none; margin:.5rem 0; padding:1rem;"><h3>Attendees (Onsite Meeting)</h3><p class="hint"></p><div class="controls attendee-buttons" style="margin-top:.5rem;"><button class="btn" id="add-attendee" type="button">+ Add attendee</button></div><div id="attendees-list" style="display:grid; gap:1rem; margin-top:1rem;"></div></div></div><p class="hint" style="margin-top:.75rem">
+<strong>
+ Privacy notice:
+ </strong>
+ Your personal data will be processed in accordance with applicable laws in the State of Qatar and used solely to respond to your inquiry.
+ </p><p class="hint">
+<strong>
+ Service note:
+ </strong>
+ You will receive an auto‑reply with a ticket number. Target response: within 3 business days.
+ </p><div class="recaptcha-placeholder" role="note">
+ reCAPTCHA placeholder — I'm not a robot (UI only; integrate site key later).
+ </div><div class="controls">
+<button class="btn" type="submit">
+ Submit
+ </button>
+<button class="btn secondary" type="reset">
+ Reset
+ </button>
+</div></div></form>
+<div class="section-head">
+<svg aria-hidden="true" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M18 8a6 6 0 1 0-9.33 5">
+</path>
+<path d="M13 16v6l4-2">
+</path>
+</svg>
+</div>
+<div class="grid-2" style="display:block;max-width:100%;">
+<div class="card" style="background:#fff;max-width:100%;">
+<p>
+<strong>
+ Email:
+ </strong>
+<a href="mailto:taxpayers.service@gta.gov.qa">
+ taxpayers.service@gta.gov.qa
+ </a>
+</p>
+<p>
+<strong>
+ Office Address:
+ </strong>
+ The General Tax Authority - Zone No.63, Street 920, Building 43 <a href="https://maps.google.com/?q=General%20Tax%20Authority%20Qatar" rel="noopener" target="_blank">(View on Google Maps)</a></p>
+<p>
+<strong>
+ Office Hours:
+ </strong>
+ Sunday–Thursday, 07:00–14:00 (Qatar Time, UTC+3)</p>
+</div>
+</div>
+</section>
+</main>
+<footer role="contentinfo">
+<div class="foot">
+ ©
+ <span id="year">
+</span>
+ General Tax Authority, State of Qatar. All rights reserved.
+ </div>
+</footer>
+<script>
+ document.getElementById('year').textContent = new Date().getFullYear();
+ const form = document.getElementById('investor-form'); const status = document.getElementById('status');
+ function showStatus(msg, ok=true){ status.hidden=false; status.style.background= ok ? '#eefbf1' : '#fff4f4'; status.style.borderColor= ok ? '#b9ebc7' : '#ffd4d4'; status.textContent=msg; status.focus?.(); }
+ form.addEventListener('submit', async (e)=>{ e.preventDefault();
+ const ids=['fullName','company','email','subject','message']; for(const id of ids){const el=document.getElementById(id); if(!el.value.trim()){ el.focus(); showStatus('Please complete all required fields.', false); return; } }
+ const email=document.getElementById('email').value.trim(); if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){ document.getElementById('email').focus(); showStatus('Please enter a valid email address.', false); return; }
+ const data={ fullName:form.fullName.value.trim(), company:form.company.value.trim(), email:form.email.value.trim(), \1countryCode: document.getElementById('countryCode')?.value || '', fullPhone: (document.getElementById('countryCode')?.value || '') + form.phone.value.trim(), country:form.country.value, subject:form.subject.value.trim(), message:form.message.value.trim(), contactMethod:form.contactMethod.value, meeting:{ onsite:form.meetingOnsite?.checked||false, online:form.meetingOnline?.checked||false }, recaptchaToken:'placeholder-token' };
+ try{ const res=await fetch('/api/contact/investors',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}); const ticket='GTA-'+Math.floor(Math.random()*900000+100000);
+ if(res.ok){ showStatus(`Thank you. Your request has been received. Ticket: ${ticket}. An auto-reply email confirmation will be sent to you.`); form.reset(); form.country.selectedIndex=0; }
+ else{ showStatus('We could not submit your request at this time. Please try again later.', false); } }
+ catch(err){ showStatus('Network error. Please check your connection and try again.', false); }
+ });
+ </script>
+<script>
+ /* --- Build Vertical Tabs from existing <main> sections --- */
+(function() {
+ const main = document.querySelector('main#content, main');
+ if (!main) return;
+ const docDir = document.documentElement.getAttribute('dir') || 'ltr';
+
+ // Gather sections with IDs (order preserved)
+ const sections = Array.from(main.querySelectorAll(':scope > section[id]'));
+ if (sections.length === 0) return;
+
+ // Create wrapper containers
+ const wrapper = document.createElement('div');
+ wrapper.className = 'vtabs';
+ const tablist = document.createElement('div');
+ tablist.className = 'vtabs-tabs';
+ tablist.setAttribute('role','tablist');
+ tablist.setAttribute('aria-label', docDir === 'rtl' ? 'التنقل بين الأقسام' : 'Section tabs');
+ const panels = document.createElement('div');
+ panels.className = 'vtabs-panels';
+
+ // Move existing sections into panels and build tabs
+ sections.forEach((sec, idx) => {
+ const id = sec.id;
+ // Find readable label from the section heading (h2 inside .section-head or first h2)
+ let label = id;
+ const h2 = sec.querySelector('.section-head h2, h2');
+ if (h2) label = h2.textContent.trim();
+
+ // Create tab button
+ const tabId = `tab-${id}`;
+ const panelId = `panel-${id}`;
+ const btn = document.createElement('button');
+ btn.setAttribute('role','tab');
+ btn.id = tabId;
+ btn.setAttribute('aria-controls', panelId);
+ btn.setAttribute('aria-selected', idx === 0 ? 'true' : 'false');
+ btn.tabIndex = idx === 0 ? 0 : -1;
+ btn.textContent = label;
+ tablist.appendChild(btn);
+
+ // Wrap section as a tabpanel
+ const panel = document.createElement('div');
+ panel.className = 'vtabs-panel';
+ panel.setAttribute('role','tabpanel');
+ panel.id = panelId;
+ panel.setAttribute('aria-labelledby', tabId);
+ panel.dataset.active = idx === 0 ? 'true' : 'false';
+ panel.appendChild(sec);
+ panels.appendChild(panel);
+ });
+
+ // Clear main and inject layout
+ main.innerHTML = '';
+ // EN: tabs left; AR: tabs right (grid order depends on dir)
+ if (docDir.toLowerCase() === 'rtl') {
+ wrapper.appendChild(panels);
+ wrapper.appendChild(tablist);
+ } else {
+ wrapper.appendChild(tablist);
+ wrapper.appendChild(panels);
+ }
+ main.appendChild(wrapper);
+
+ // Keyboard interaction (Left/Right/Up/Down/Home/End)
+ const tabs = Array.from(tablist.querySelectorAll('[role="tab"]'));
+ function activateTab(newIdx, focus = true) {
+ tabs.forEach((t,i)=>{
+ const selected = i === newIdx;
+ t.setAttribute('aria-selected', selected ? 'true' : 'false');
+ t.tabIndex = selected ? 0 : -1;
+ const panel = document.getElementById(t.getAttribute('aria-controls'));
+ if (panel) panel.dataset.active = selected ? 'true' : 'false';
+ });
+ if (focus) tabs[newIdx].focus();
+ }
+ tabs.forEach((t, i) => {
+ t.addEventListener('click', () => activateTab(i, false));
+ t.addEventListener('keydown', (e) => {
+ const horiz = ['ArrowLeft','ArrowRight'];
+ const vert = ['ArrowUp','ArrowDown'];
+ const isRTL = document.documentElement.dir === 'rtl';
+ let newIdx = i;
+ if (horiz.includes(e.key)) {
+ e.preventDefault();
+ if (e.key === 'ArrowLeft') newIdx = isRTL ? (i+1) % tabs.length : (i-1+tabs.length)%tabs.length;
+ if (e.key === 'ArrowRight') newIdx = isRTL ? (i-1+tabs.length)%tabs.length : (i+1)%tabs.length;
+ activateTab(newIdx);
+ } else if (vert.includes(e.key)) {
+ e.preventDefault();
+ newIdx = e.key === 'ArrowUp' ? (i-1+tabs.length)%tabs.length : (i+1)%tabs.length;
+ activateTab(newIdx);
+ } else if (e.key === 'Home') {
+ e.preventDefault(); activateTab(0);
+ } else if (e.key === 'End') {
+ e.preventDefault(); activateTab(tabs.length-1);
+ } else if (e.key === 'Enter' || e.key === ' ') {
+ e.preventDefault(); activateTab(i, false);
+ }
+ });
+ });
+})();
+ </script>
+<script id="meeting-enhancements-script">
+(function(){
+ const online = document.getElementById('meetingOnline');
+ const onsite = document.getElementById('meetingOnsite');
+ const sched = document.getElementById('meeting-scheduler');
+ const dt = document.getElementById('meetingDateTime');
+ const attendeesCard = document.getElementById('attendees-container');
+ const list = document.getElementById('attendees-list');
+ const form = document.getElementById('investor-form');
+ const MAX_ATTENDEES = 5;
+ let addBtn = document.getElementById('add-attendee');
+
+ function setRequired(el, on){ if(!el) return; on ? el.setAttribute('required','required') : el.removeAttribute('required'); }
+
+ function attendeeRow(index){
+ const entry = document.createElement('div'); entry.className = 'attendee-entry';
+ function mkField(labelText, idBase, type='text'){
+ const wrap = document.createElement('div');
+ const label = document.createElement('label'); label.className = 'required';
+ const id = `${idBase}-${index}`; label.setAttribute('for', id); label.textContent = labelText;
+ const input = document.createElement('input'); input.type = type; input.id = id; input.name = idBase; input.required = true; input.placeholder = labelText;
+ wrap.appendChild(label); wrap.appendChild(input); return wrap;
+ }
+ // Row 1 – Full Name | Role/Position
+ const row1 = document.createElement('div'); row1.className = 'row-2col';
+ row1.appendChild(mkField('Full Name', 'attendeeFullName'));
+ row1.appendChild(mkField('Role/Position', 'attendeeRole'));
+ entry.appendChild(row1);
+
+ // Row 2 – ID Type | ID Number
+ const row2 = document.createElement('div'); row2.className = 'row-2col';
+ const idTypeWrap = document.createElement('div');
+ const idTypeLabel = document.createElement('label'); idTypeLabel.className='required';
+ const idTypeId = `attendeeIdType-${index}`; idTypeLabel.setAttribute('for', idTypeId); idTypeLabel.textContent = 'ID Type';
+ const idTypeSelect = document.createElement('select'); idTypeSelect.id = idTypeId; idTypeSelect.name='attendeeIdType'; idTypeSelect.required = true;
+ ['', 'Qatar ID', 'Passport'].forEach((val,i)=>{ const o=document.createElement('option'); o.value=val; o.textContent = i===0?'Select':val; idTypeSelect.appendChild(o); });
+ idTypeWrap.appendChild(idTypeLabel); idTypeWrap.appendChild(idTypeSelect);
+ row2.appendChild(idTypeWrap);
+ row2.appendChild(mkField('ID Number', 'attendeeIdNumber'));
+ row2.appendChild(mkField('Attach ID Copy', 'attendeeIdCopy', 'file'));
+
+ entry.appendChild(row2);
+
+ 
+ // Row 3 – Vehicle Number Plate | Remove
+ const row3 = document.createElement('div'); row3.className = 'attendee-row-plate';
+ const carWrap = mkField('Vehicle Number Plate', 'attendeeCarPlate'); try{(function(){var input=carWrap.querySelector('input'); if(input){ input.required=false; }var label=carWrap.querySelector('label'); if(label&&label.classList){ label.classList.remove('required'); }})();}catch(e){}carWrap.classList.add('field'); row3.appendChild(carWrap);
+ const removeHolder = document.createElement('div'); removeHolder.className = 'remove-holder';
+ const rm = document.createElement('button'); rm.type='button'; rm.className='btn'; rm.textContent='Remove the attendee';
+ rm.addEventListener('click', ()=>{ entry.remove(); updateAddState(); });
+ removeHolder.appendChild(rm); row3.appendChild(removeHolder); entry.appendChild(row3);
+ return entry;
+ }
+
+ function countAttendees(){ return (list?.querySelectorAll('.attendee-entry').length)||0; }
+ function updateAddState(){ const btn = document.getElementById('add-attendee'); if(!btn) return; btn.disabled = countAttendees() >= MAX_ATTENDEES; }
+ // --- Validation helpers to ensure previous attendee is complete before adding another ---
+ function showInlineError(input, message){
+ if(!input) return;
+ var wrap = input.parentElement || input;
+ var old = wrap.querySelector('.field-error');
+ if(old) old.remove();
+ var err = document.createElement('div');
+ err.className = 'field-error';
+ err.textContent = message || 'This field is required.';
+ wrap.appendChild(err);
+ input.classList && input.classList.add('input-error');
+ input.addEventListener('input', function _clr(){
+ if((input.value||'').trim() !== ''){
+ var o = wrap.querySelector('.field-error');
+ if(o) o.remove();
+ input.classList && input.classList.remove('input-error');
+ input.removeEventListener('input', _clr);
+ }
+ });
+ }
+ function clearInlineErrors(entry){
+ if(!entry) return;
+ entry.querySelectorAll('.field-error').forEach(e=>e.remove());
+ entry.querySelectorAll('.input-error').forEach(i=>i.classList.remove('input-error'));
+ }
+ function validateEntry(entry){
+ if(!entry) return true;
+ clearInlineErrors(entry);
+ // Required fields inside an attendee row (Vehicle Number Plate is optional)
+ const requiredInputs = Array.from(entry.querySelectorAll('input[required], select[required]'));
+ for(const input of requiredInputs){
+ // For selects, ensure a non-empty value
+ const val = (input.value || '').trim();
+ if(!val){
+ showInlineError(input, 'Please complete this field before adding another attendee.');
+ input.focus();
+ return false;
+ }
+ }
+ return true;
+ }
+ function validateLastAttendeeComplete(){
+ if(!list) return true;
+ const rows = list.querySelectorAll('.attendee-entry');
+ if(rows.length === 0) return true;
+ const last = rows[rows.length - 1];
+ return validateEntry(last);
+ }
+
+ function addOneAttendee(){ const btn = document.getElementById('add-attendee'); if(!list || !btn) return; if(countAttendees() >= MAX_ATTENDEES) return; const idx=Date.now(); list.appendChild(attendeeRow(idx)); updateAddState(); }
+ function wireAddButton(){ const btn = document.getElementById('add-attendee'); if(!btn || btn.dataset.wired==='1') return; btn.addEventListener('click', (e)=>{ e.preventDefault(); e.stopPropagation(); if(validateLastAttendeeComplete()){ addOneAttendee(); } }, { passive:true }); btn.dataset.wired='1'; }
+
+ function updateSelectionStyles(){
+ const onlineLbl = document.querySelector('.meeting-type-options label:has(#meetingOnline)');
+ const onsiteLbl = document.querySelector('.meeting-type-options label:has(#meetingOnsite)');
+ if(onlineLbl) onlineLbl.classList.toggle('selected', !!(online && online.checked));
+ if(onsiteLbl) onsiteLbl.classList.toggle('selected', !!(onsite && onsite.checked));
+ }
+
+ function toggleState(e){
+ // Exclusivity
+ if(e && e.target===online && online.checked){ onsite.checked=false; }
+ if(e && e.target===onsite && onsite.checked){ online.checked=false; }
+ const anySelected = (online?.checked || onsite?.checked);
+ setRequired(dt, anySelected);
+
+ // Show attendees only for onsite
+ if(attendeesCard){ attendeesCard.style.display = onsite && onsite.checked ? 'block' : 'none'; }
+ // Toggle required on attendee inputs when onsite
+ attendeesCard?.querySelectorAll('input, select').forEach(inp => setRequired(inp, onsite && onsite.checked));
+
+ updateAddState();
+ wireAddButton();
+ updateSelectionStyles();
+ }
+
+ online?.addEventListener('change', toggleState);
+ onsite?.addEventListener('change', toggleState);
+
+ form?.addEventListener('submit', (e)=>{
+ if(!form.checkValidity()){ e.preventDefault(); return; }
+ const anySelected = (online?.checked || onsite?.checked);
+ if(anySelected && !dt?.value){ e.preventDefault(); (function(){ var input=dt; if(!input) return; var wrap=input.parentElement||input; var old=wrap.querySelector('.field-error'); if(old) old.remove(); var err=document.createElement('div'); err.className='field-error'; err.textContent='Please select a date and time (required only if Online or Onsite is selected).'; wrap.appendChild(err); input.classList && input.classList.add('input-error'); input.focus(); input.addEventListener('input', function _clr(){ if((input.value||'').trim()!==''){ var o=wrap.querySelector('.field-error'); if(o) o.remove(); input.classList && input.classList.remove('input-error'); input.removeEventListener('input', _clr);} }); })(); return; }
+ if(onsite?.checked && countAttendees()===0){ e.preventDefault(); alert('Please add at least one attendee for an onsite meeting.'); return; }
+ });
+
+ // Init
+ toggleState();
+ wireAddButton();
+})();</script><script id="attendee-instructions-patch">
+(function(){
+ function ensureAttendeeInstructions(){
+ var container = document.getElementById('attendees-container');
+ var list = document.getElementById('attendees-list');
+ if(!container || !list) return;
+ var count = list.querySelectorAll('.attendee-entry').length;
+ var existing = container.querySelector('#attendee-instructions');
+ if(count >= 1){
+ if(!existing){
+ var wrap = document.createElement('div');
+ wrap.id = 'attendee-instructions';
+ wrap.className = 'card';
+ var h4 = document.createElement('h4');
+ h4.textContent = 'Instructions';
+ var ul = document.createElement('ul');
+ ul.className = 'clean';
+ [
+ 'Submit all required information and documents accurately.',
+ 'Arriving 20 minutes early is recommended.',
+ 'Present your ID at reception for check-in.',
+ 'Without vehicle details, a parking space cannot be reserved.'
+ ].forEach(function(txt){
+ var li = document.createElement('li'); li.textContent = txt; ul.appendChild(li);
+ });
+ wrap.appendChild(h4);
+ wrap.appendChild(ul);
+ container.appendChild(wrap);
+ }
+ } else {
+ if(existing){ existing.remove(); }
+ }
+ }
+
+ // Run now
+ ensureAttendeeInstructions();
+
+ // Observe attendees list for changes to add/remove instructions dynamically
+ var list = document.getElementById('attendees-list');
+ if(list && 'MutationObserver' in window){
+ var mo = new MutationObserver(function(){ ensureAttendeeInstructions(); });
+ mo.observe(list, { childList: true, subtree: false });
+ }
+
+ // Also re-check on meeting type toggle
+ var online = document.getElementById('meetingOnline');
+ var onsite = document.getElementById('meetingOnsite');
+ [online, onsite].forEach(function(el){
+ if(el) el.addEventListener('change', ensureAttendeeInstructions);
+ });
+})();</script>
+
+
+
+<script>
+(function(){
+  // Use delegation and robust lookups in case the DOM is restructured after load.
+  function qs(sel, root=document){ return root.querySelector(sel); }
+  function qsa(sel, root=document){ return Array.from(root.querySelectorAll(sel)); }
+
+  function ensureStyles(){
+    if(!qs('#idplate-equal-cols')){
+      const style = document.createElement('style');
+      style.id = 'idplate-equal-cols';
+      style.textContent = `
+      .attendee-idplate-row{display:grid;grid-template-columns:1fr;gap:1rem;align-items:start}
+      @media(min-width:680px){.attendee-idplate-row{grid-template-columns:1fr 1fr}}
+      .attendee-idplate-row > .field{min-width:260px}
+      `;
+      document.head.appendChild(style);
+    }
+  }
+
+  function init(){
+    ensureStyles();
+
+    let attendeeCount = 0;
+    const container = qs('#attendees-container');
+    const list = qs('#attendees-list');
+    const onsite = qs('#meetingOnsite');
+    const online = qs('#meetingOnline');
+
+    function setContainerVisible(show){
+      if(!container) return;
+      container.style.display = show ? 'block' : 'none';
+    }
+
+    function updateVisibility(){
+      if(onsite && onsite.checked){ setContainerVisible(true); }
+      else { setContainerVisible(false); }
+    }
+
+    function validateLastAttendee(){
+      const rows = qsa('#attendees-list .card');
+      if(rows.length === 0) return true;
+      const last = rows[rows.length-1];
+      // Required fields in an attendee
+      const req = qsa('input[required], select[required], textarea[required]', last);
+      for(const el of req){
+        if(el.type === 'file'){
+          if(!el.files || el.files.length === 0) return false;
+        }else{
+          if(!String(el.value||'').trim()) return false;
+        }
+      }
+      return true;
+    }
+
+    function createAttendeeRow(){
+      attendeeCount++;
+      const row = document.createElement('div');
+      row.className = 'card';
+      row.style.padding = '1rem';
+
+      row.innerHTML = `
+        <div class="row-2col">
+          <div>
+            <label class="required" for="attendeeName${attendeeCount}">Full Name</label>
+            <input type="text" id="attendeeName${attendeeCount}" name="attendeeName${attendeeCount}" required />
+          </div>
+          <div>
+            <label class="required" for="attendeeRole${attendeeCount}">Role / Position</label>
+            <input type="text" id="attendeeRole${attendeeCount}" name="attendeeRole${attendeeCount}" required />
+          </div>
+        </div>
+
+        <div class="row-2col">
+          <div>
+            <label class="required" for="attendeeIdType${attendeeCount}">ID Type</label>
+            <select id="attendeeIdType${attendeeCount}" name="attendeeIdType${attendeeCount}" required>
+              <option value="">Select</option>
+              <option>QID</option>
+              <option>Passport</option>
+            </select>
+          </div>
+          <div>
+            <label class="required" for="attendeeIdNum${attendeeCount}">ID Number</label>
+            <input type="text" id="attendeeIdNum${attendeeCount}" name="attendeeIdNum${attendeeCount}" required />
+          </div>
+        </div>
+
+        <div class="attendee-idplate-row" style="display:grid;grid-template-columns:2fr 1fr;gap:1rem;align-items:start">
+          <div class="field">
+            <label class="required" for="attendeeIdCopy${attendeeCount}">Attach ID Copy</label>
+            <input type="file" id="attendeeIdCopy${attendeeCount}" name="attendeeIdCopy${attendeeCount}" required />
+          </div>
+          <div class="field">
+            <label for="attendeePlate${attendeeCount}">Vehicle Number Plate</label>
+            <input type="text" id="attendeePlate${attendeeCount}" name="attendeePlate${attendeeCount}" placeholder="Optional" />
+          </div>
+        </div>
+
+        <div class="controls attendee-buttons" style="margin-top:1rem;">
+          <button type="button" class="btn remove-attendee">Remove the attendee</button>
+        </div>
+      `;
+
+      row.querySelector(".remove-attendee").addEventListener("click", ()=>{
+        row.remove();
+      });
+
+      list.appendChild(row);
+    }
+
+    // Delegated handler for "+ Add attendee"
+    document.addEventListener('click', function(e){
+      const target = e.target.closest('#add-attendee');
+      if(!target) return;
+
+      // Make sure the section shows and "Onsite" is checked
+      if(onsite && !onsite.checked){
+        onsite.checked = true;
+        setContainerVisible(true);
+      }else{
+        setContainerVisible(true);
+      }
+
+      // Gate: don't add until the previous attendee is valid
+      if(!validateLastAttendee()){
+        // Find the first invalid required input in the last row and focus
+        const rows = qsa('#attendees-list .card');
+        if(rows.length){
+          const last = rows[rows.length-1];
+          const req = qsa('input[required], select[required], textarea[required]', last);
+          for(const el of req){
+            if(el.type === 'file'){
+              if(!el.files || el.files.length === 0){ el.focus(); break; }
+            }else if(!String(el.value||'').trim()){
+              el.focus(); break;
+            }
+          }
+        }
+        return;
+      }
+
+      createAttendeeRow();
+    });
+
+    // Keep visibility in sync when checkboxes change
+    if(onsite){ onsite.addEventListener('change', updateVisibility); }
+    if(online){ online.addEventListener('change', updateVisibility); }
+
+    // Initialize
+    updateVisibility();
+  }
+
+  if(document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
+
+</body>
+</html>
